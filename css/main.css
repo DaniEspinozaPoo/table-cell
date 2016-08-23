@@ -1,0 +1,72 @@
+@font-face {
+    font-family:'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+}
+body, div, h1, h2, h3, h4, h5, h6, 
+p, ul, ol, li, dl, dt, dd, img, form, 
+fieldset, input, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: #ffffff;
+}
+
+li{
+    display: block;
+
+}    
+a:hover .caja{
+    display: block;
+
+}
+
+.caja{
+       width: 100px;
+       height: 100px;
+       background-color:#000000;
+       display: none;
+       margin-left: 100px;
+       
+}
+
+
+.color{
+       width: 100px;
+       height: 100px;
+       display: table-cell;
+       text-decoration: none;
+       font-family:'Dosis';
+       font-size: 20px;
+       line-height: 80px;
+}
+
+
+.uno{ 
+     background-color:#6BB3FC;
+     color: #6BB3FC;
+}
+
+.dos{ 
+     background-color:#6AEBD0;
+     color: #6AEBD0;
+}
+
+.tres{ 
+     background-color:#F5A566;
+     color:#F5A566;
+}
+
+.cuatro{ 
+     background-color:#F67E8B;
+     color:#F67E8B;
+}
+
+
+
+
+
+/* completa tu codigo aqui */
